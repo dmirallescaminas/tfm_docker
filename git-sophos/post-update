@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -X POST http://david:118a9663776601a9204898a3c2979cae94@ec2-3-23-89-15.us-east-2.compute.amazonaws.com:8080/job/ProductoWeb/build?token=tokengit

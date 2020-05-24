@@ -23,8 +23,4 @@ ADD gitkey.ppk /tmp/
 RUN puttygen /tmp/gitkey.ppk -O private-openssh -o gitkey
 RUN cp /tmp/gitkey /home/jenkins/.ssh && chown jenkins:jenkins /home/jenkins/.ssh/gitkey
 
-USER root
-RUN echo "" > /home/web/.bashrc
-RUN echo "" > /home/web/.bashrc
-
 EXPOSE 8080 50000 22
